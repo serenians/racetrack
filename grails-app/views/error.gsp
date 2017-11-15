@@ -13,6 +13,7 @@
             <g:elseif test="${request.getAttribute('javax.servlet.error.exception')}">
                 <g:renderException exception="${request.getAttribute('javax.servlet.error.exception')}" />
             </g:elseif>
+
             <g:else>
                 <ul class="errors">
                     <li>An error has occurred</li>
