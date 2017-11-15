@@ -13,9 +13,9 @@ class Race {
 
 
     static constraints = {
-        name length:255
-        state length: 255
-        startingPoint length: 255
+        name maxSize:50, size: 1..50
+        state maxSize: 255
+        startingPoint maxSize: 255
         startDateTime min: new Date()
     }
 }
