@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="java-racetrack_integrationTest" target="1.8" />
+      <module name="new-racetrack_integrationTest" target="1.8" />
       <module name="racetrack_integrationTest" target="1.8" />
       <module name="racetrack_main" target="1.8" />
       <module name="racetrack_test" target="1.8" />
